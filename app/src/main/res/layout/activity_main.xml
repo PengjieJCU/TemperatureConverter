@@ -16,14 +16,16 @@
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="99dp"
-        android:layout_height="61dp"
+        android:layout_width="154dp"
+        android:layout_height="76dp"
         android:layout_below="@+id/Celsius"
         android:layout_alignParentStart="true"
         android:layout_marginStart="17dp"
         android:layout_marginTop="-113dp"
-        android:entries="@array/Unit"
-        android:spinnerMode="dropdown" />
+        android:prompt="@string/C"
+        android:spinnerMode="dropdown"
+        android:textSize="100sp"/>
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -35,12 +37,15 @@
 
     <Spinner
         android:id="@+id/spinner2"
-        android:layout_width="99dp"
-        android:layout_height="61dp"
+        android:layout_width="154dp"
+        android:layout_height="65dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="198dp"
-        android:layout_marginEnd="294dp" />
+        android:layout_marginEnd="239dp"
+        android:prompt="@string/F"
+        android:spinnerMode="dropdown"
+        android:textSize="100sp"/>
 
     <TableRow
         android:layout_width="match_parent"

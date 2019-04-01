@@ -12,4 +12,8 @@
     <string name="_3">3</string>
     <string name="_0">0</string>
     <string name="_X">X</string>
+    <string name="c">°C</string>
+    <string name="f">°F</string>
+    <string name="C">°C</string>
+    <string name="F">°F</string>
 </resources>
